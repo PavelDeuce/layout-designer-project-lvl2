@@ -1,0 +1,20 @@
+{
+  "name": "layout-designer-project-lvl2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "scripts": {
+    "sass": "sass --watch src/styles/scss/app.scss src/styles/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavelDeuce/layout-designer-project-lvl2.git"
+  },
+  "author": "Pavel Deryugin (Deuce)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PavelDeuce/layout-designer-project-lvl2/issues"
+  },
+  "homepage": "https://github.com/PavelDeuce/layout-designer-project-lvl2#readme",
+  "description": ""
+}
