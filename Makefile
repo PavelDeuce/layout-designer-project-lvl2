@@ -5,7 +5,7 @@ start:
 	npm run sass
 
 lint:
-	npx stylelint ./src/styles/*.css
+	npx stylelint **/*.scss
 	npx htmlhint ./src/*.html
 
 deploy:
