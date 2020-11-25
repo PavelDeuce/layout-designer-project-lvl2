@@ -16,5 +16,8 @@
     "url": "https://github.com/PavelDeuce/layout-designer-project-lvl2/issues"
   },
   "homepage": "https://github.com/PavelDeuce/layout-designer-project-lvl2#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "surge": "^0.21.7"
+  }
 }
