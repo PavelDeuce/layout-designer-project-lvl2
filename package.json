@@ -18,6 +18,7 @@
   "homepage": "https://github.com/PavelDeuce/layout-designer-project-lvl2#readme",
   "description": "",
   "dependencies": {
+    "normalize-scss": "^7.0.1",
     "surge": "^0.21.7"
   },
   "devDependencies": {
