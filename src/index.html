@@ -8,31 +8,33 @@
     <link href="styles/style.css" rel="stylesheet" />
   </head>
   <body>
-    <header>
-      <div>
-        <img src="images/logo.svg" alt="Логотип Music Box" />
-        <p>music box</p>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="#">Главная</a></li>
-          <li><a href="#">Каталог</a></li>
-          <li><a href="#">Исполнители</a></li>
-          <li><a href="#">Контакты</a></li>
-        </ul>
-      </nav>
-      <input name="search" type="search" placeholder="поиск..." />
+    <header class="header content-container display-flex justify-between align-items-center">
+      <div class="display-flex align-items-center">
+        <div class="display-flex align-items-center">
+          <img class="logo-image" src="images/logo.svg" alt="Логотип Music Box" />
+          <p class="logo-title color-white">music box</p>
+        </div>
+        <nav class="nav-menu">
+          <ul class="display-flex color-middle-gray">
+            <li class="menu-item"><a href="#" class="color-white">Главная</a></li>
+            <li class="menu-item"><a href="#">Каталог</a></li>
+            <li class="menu-item"><a href="#">Исполнители</a></li>
+            <li class="menu-item"><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+        </div>
+      <input name="search" class="search-input" type="search" placeholder="поиск..." />
     </header>
 
-    <section>
-      <div>
-        <h1>Онлайн музыка где угодно</h1>
-        <span>без ограничений</span>
-        <p>Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
-        <form>
-          <input type="text" name="username" placeholder="Имя" />
-          <input type="email" name="email" placeholder="Email" />
-          <button>Получить доступ</button>
+    <section class="main-section">
+      <div class="content-container text-center color-white">
+        <h1 class="text-uppercase">онлайн музыка где угодно</h1>
+        <span class="main-subtitle text-uppercase">без ограничений</span>
+        <p class="subscription-text">Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
+        <form class="subscription-form-container display-flex flex-wrap">
+          <input class="subscription-input" type="text" name="username" placeholder="Имя" />
+          <input class="subscription-input" type="email" name="email" placeholder="Email" />
+          <button class="subscription-button">Получить доступ</button>
         </form>
       </div>
     </section>

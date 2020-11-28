@@ -1,0 +1,44 @@
+.header {
+  position: absolute;
+  top: 25px;
+  right: 0;
+  left: 0;
+}
+
+.logo-image {
+  width: 20px;
+  height: 18px;
+}
+
+.logo-title {
+  padding-left: 4px;
+
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
+  text-transform: uppercase;
+}
+
+.menu {
+  margin-left: 63px;
+}
+
+.menu-item {
+  margin-left: 37px;
+
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
+  text-transform: uppercase;
+}
+
+.search-input {
+  width: 278px;
+  height: 26px;
+
+  padding: 0 14px;
+
+  background: $dark-gray;
+  border: none;
+  border-radius: 50px;
+}
