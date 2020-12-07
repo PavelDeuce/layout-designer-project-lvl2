@@ -34,6 +34,30 @@
   color: $middle-gray;
 }
 
+.color-light-gray {
+  color: $light-gray;
+}
+
 .text-uppercase {
   text-transform: uppercase;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
+}
+
+.ml-22 {
+  margin-left: 22px;
+}
+
+.mt-70 {
+  margin-top: 70px;
+}
+
+.bg-black {
+  background: $black;
 }

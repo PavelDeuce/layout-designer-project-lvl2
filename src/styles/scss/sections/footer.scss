@@ -1,0 +1,28 @@
+.footer {
+  background: linear-gradient(265.08deg, #95390C 14.9%, #5328A1 68.95%);
+
+  &-info {
+    padding: 61px 0 74px 0;
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .list-title {
+      margin-bottom: 16px;
+      font-size: 18px;
+      line-height: 150%;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  }
+
+  &-nav {
+    padding: 40px 0;
+    width: 500px;
+  }
+
+  &-separator {
+    border: 1px solid #e0e0e0;
+  }
+}
