@@ -1,0 +1,37 @@
+$subscriptions: (
+  'free': 'subscribe_1',
+  'standard': 'subscribe_2',
+  'premium': 'subscribe_3',
+);
+
+@mixin set-card-bg {
+  @each $class, $name in $subscriptions {
+    .bg-#{$class} {
+      @include set-bg-image($name, 'png');
+    }
+  }
+}
+
+.page-pricing {
+  .flex-container {
+    flex: 1 1 370px;
+    margin-bottom: px-to-rem(-40px);
+    margin-left: px-to-rem(-48px);
+
+    & > * {
+      max-width: px-to-rem(370px);
+      margin-bottom: px-to-rem(40px);
+      margin-left: px-to-rem(48px);
+    }
+  }
+
+  @include set-card-bg();
+
+  & > p {
+    margin-top: 40px;
+
+    @include set-media(sm) {
+      margin-top: 20px;
+    }
+  }
+}

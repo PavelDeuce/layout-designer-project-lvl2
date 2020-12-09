@@ -3,17 +3,22 @@
 }
 
 html {
-  font-size: $base-font-size;
+  font-size: $rem-base;
   font-family: 'Roboto', sans-serif;
+}
+
+main {
+  padding-bottom: px-to-rem(100px);
+
+  color: $white;
+
+  background: $black;
 }
 
 body,
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
 p,
 ul,
 button {
@@ -22,27 +27,49 @@ button {
 }
 
 h1 {
-  font-size: 60px;
+  @include set-typography(60px, 90px, bold, uppercase);
+
+  @include set-media(sm) {
+    @include set-typography(30px, 45px, bold, uppercase);
+  }
 }
 
 h2 {
-  margin-bottom: 50px;
+  @include set-typography(38px, 57px, bold, uppercase);
 
-  font-size: 38px;
-  text-transform: uppercase;
+  @include set-media(sm) {
+    @include set-typography(18px, 27px, bold, uppercase);
+  }
 }
 
 h3 {
-  margin-bottom: 25px;
+  @include set-typography(16px, 24px, bold, uppercase);
 
-  font-size: 30px;
+  @include set-media(sm) {
+    @include set-typography(18px, 27px, bold, uppercase);
+  }
 }
 
 ul {
   list-style: none;
 }
 
+input {
+  color: inherit;
+
+  border: none;
+}
+
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.container {
+  max-width: px-to-rem(1220px);
+  margin: 0 auto;
+
+  @include set-media(sm) {
+    padding: px-to-rem(0px 20px);
+  }
 }

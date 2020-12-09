@@ -5,20 +5,19 @@
 @include normalize();
 
 @import 'variables';
+@import 'utils';
 @import 'default';
 @import 'atomic';
 
-@import 'sections/header';
-@import 'sections/main';
-@import 'sections/footer';
+@import 'home/sections';
+
+@import 'shared/header';
+@import 'shared/main';
+@import 'shared/footer';
+
 @import 'components/btn';
 @import 'components/subsctiption-form';
 @import 'components/card';
-
-.content-container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
 
 .fs-22 {
   margin-top: 50px;
