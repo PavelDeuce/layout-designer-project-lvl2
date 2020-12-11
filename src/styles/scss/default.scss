@@ -4,6 +4,7 @@
 
 html {
   font-size: $rem-base;
+  line-height: 150%;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -69,7 +70,7 @@ a {
   max-width: px-to-rem(1220px);
   margin: 0 auto;
 
-  @include set-media(sm) {
+  @include set-media(xl) {
     padding: px-to-rem(0px 20px);
   }
 }

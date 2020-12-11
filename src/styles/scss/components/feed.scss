@@ -1,0 +1,38 @@
+.feed {
+  display: flex;
+  flex-direction: column;
+
+  &-title {
+    @include set-typography(30px, 45px, normal, capitalize);
+
+    @include set-media(sm) {
+      @include set-typography(16px, 26px, normal, capitalize);
+    }
+
+    @include set-media(xl) {
+      margin-top: px-to-rem(50px);
+    }
+  }
+
+  &-data {
+    margin-top: px-to-rem(15px);
+
+    @include set-typography(13px, 26px, normal, uppercase);
+
+    .source {
+      color: $orange;
+    }
+
+    & > * {
+      margin-right: px-to-rem(16px);
+    }
+  }
+
+  &-btn {
+    @include set-typography(13px, 29px, normal, uppercase);
+    margin-top: px-to-rem(48px);
+    padding: px-to-rem(17px 30px);
+
+    border: 1px solid $dark-gray;
+  }
+}
