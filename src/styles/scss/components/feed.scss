@@ -3,6 +3,7 @@
   flex-direction: column;
 
   &-title {
+    color: $white;
     @include set-typography(30px, 45px, normal, capitalize);
 
     @include set-media(sm) {
@@ -30,6 +31,7 @@
 
   &-btn {
     @include set-typography(13px, 29px, normal, uppercase);
+    max-width: px-to-rem(150px);
     margin-top: px-to-rem(48px);
     padding: px-to-rem(17px 30px);
 

@@ -653,9 +653,6 @@ a {
   }
 }
 
-.page-news > article:not(:last-child) {
-  margin-bottom: 4.0625rem;
-}
 .page-news .flex-container {
   flex: 1 1 575px;
   margin-left: -3.125rem;
@@ -664,6 +661,9 @@ a {
   max-width: 35.9375rem;
   margin-left: 3.125rem;
 }
+.page-news > article:not(:last-child) {
+  margin-bottom: 4.0625rem;
+}
 .page-news p {
   margin-top: 1.875rem;
 }
@@ -671,6 +671,25 @@ a {
   .page-news p {
     margin-top: 0.9375rem;
   }
+}
+
+.page-app .flex-container {
+  flex: 1 1 600px;
+  margin-left: -9rem;
+}
+.page-app .flex-container > * {
+  max-width: 37.5rem;
+  margin-left: 9rem;
+}
+.page-app .app-info {
+  margin-top: 16px;
+}
+.page-app .download-btn {
+  max-width: 8.125rem;
+  border-radius: 2rem;
+}
+.page-app p {
+  margin-bottom: 1rem;
 }
 
 .header {
@@ -754,38 +773,32 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  max-width: 200px;
+  padding: 12px 0;
   text-transform: uppercase;
   background: none;
   border: none;
-  cursor: pointer;
   border-radius: 0.3125rem;
+  cursor: pointer;
+  font-weight: normal;
+  font-size: 0.8125rem;
+  line-height: 1.625rem;
+  text-transform: inherit;
 }
 
 .btn-green {
   color: #fff;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
   background: #34c176;
-  border-radius: 5px;
 }
 
-.btn-pink {
+.btn-red {
   color: #fff;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
   background: #95390c;
-  border-radius: 50px;
 }
 
-.btn-gray {
-  color: #8c8c8c;
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 28px;
-  border: 1px solid #e0e0e0;
-  border-radius: 5px;
+.btn-purple {
+  color: #fff;
+  background: #5328a1;
 }
 
 .subscription-text {
@@ -868,6 +881,7 @@ a {
   flex-direction: column;
 }
 .feed-title {
+  color: #fff;
   font-weight: normal;
   font-size: 1.875rem;
   line-height: 2.8125rem;
@@ -904,6 +918,7 @@ a {
   font-size: 0.8125rem;
   line-height: 1.8125rem;
   text-transform: uppercase;
+  max-width: 9.375rem;
   margin-top: 3rem;
   padding: 1.0625rem 1.875rem;
   border: 1px solid #cacaca;
