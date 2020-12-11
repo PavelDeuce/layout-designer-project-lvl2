@@ -1,0 +1,27 @@
+.form {
+  max-width: px-to-rem(600px);
+
+  margin: 0 auto px-to-rem(40px);
+
+  & > * {
+    margin: px-to-rem(30px 15px 0px);
+  }
+
+  &-input {
+    flex: 1 1 270px;
+    height: px-to-rem(50px);
+
+    padding: px-to-rem(15px);
+
+    color: $white;
+
+    background: transparent;
+    border: px-to-rem(2px) solid $white;
+    border-radius: px-to-rem(3px);
+  }
+
+  .form-btn {
+    flex: 1 1 570px;
+    max-width: px-to-rem(570px);
+  }
+}

@@ -9,13 +9,12 @@
 @import 'default';
 @import 'atomic';
 
-@import 'home/sections';
-
-@import 'shared/header';
-@import 'shared/main';
-@import 'shared/footer';
-
 @import 'components/btn';
-@import 'components/subsctiption-form';
+@import 'components/form';
 @import 'components/card';
 @import 'components/feed';
+
+@import 'shared/header';
+@import 'shared/footer';
+
+@import 'pages/home';

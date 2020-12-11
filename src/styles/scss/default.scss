@@ -4,8 +4,8 @@
 
 html {
   font-size: $rem-base;
-  line-height: 150%;
   font-family: 'Roboto', sans-serif;
+  line-height: 150%;
 }
 
 main {
@@ -55,7 +55,8 @@ ul {
   list-style: none;
 }
 
-input {
+input,
+input::placeholder {
   color: inherit;
 
   border: none;

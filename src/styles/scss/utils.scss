@@ -25,6 +25,10 @@
   background-size: cover;
 }
 
+@mixin set-bg-gradient($color-1, $color-2) {
+  background: linear-gradient(265.08deg, $color-1 14.9%, $color-2 68.95%);
+}
+
 @mixin set-media($type) {
   @media (max-width: map-get($breakpoints, $type)) {
     @content;

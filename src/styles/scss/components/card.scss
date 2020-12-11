@@ -31,7 +31,7 @@
     margin-top: px-to-rem(24px);
     padding: px-to-rem(21px 0px);
 
-    border: 1px solid $white;
+    border: px-to-rem(1px) solid $white;
   }
 
   &-small-text {

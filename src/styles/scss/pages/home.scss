@@ -12,6 +12,28 @@ $subscriptions: (
   }
 }
 
+.page-description {
+  padding: px-to-rem(272px 0px 248px 0px);
+
+  @include set-bg-image(banner, png);
+
+  .subtitle {
+    @include set-typography(38px, 57px, bold, uppercase);
+
+    @include set-media(sm) {
+      @include set-typography(18px, 27px, bold, uppercase);
+    }
+  }
+
+  p {
+    margin-top: px-to-rem(32px);
+
+    @include set-media(sm) {
+      margin-top: px-to-rem(16px);
+    }
+  }
+}
+
 .page-pricing {
   .flex-container {
     flex: 1 1 370px;
@@ -56,6 +78,12 @@ $subscriptions: (
 
     @include set-media(sm) {
       margin-top: px-to-rem(15px);
+    }
+  }
+
+  .news-image {
+    @include set-media(sm) {
+      height: px-to-rem(187px);
     }
   }
 }
