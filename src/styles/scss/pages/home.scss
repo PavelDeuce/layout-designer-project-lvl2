@@ -12,7 +12,7 @@ $subscriptions: (
   }
 }
 
-.page-description {
+.home-page-description {
   padding: px-to-rem(272px 0px 248px 0px);
 
   @include set-bg-image(banner, png);
@@ -36,12 +36,12 @@ $subscriptions: (
 
 .page-pricing {
   .flex-container {
-    flex: 1 1 370px;
+    flex: 1 1 350px;
     margin-bottom: px-to-rem(-40px);
     margin-left: px-to-rem(-48px);
 
     & > * {
-      max-width: px-to-rem(370px);
+      max-width: px-to-rem(350px);
       margin-bottom: px-to-rem(40px);
       margin-left: px-to-rem(48px);
     }

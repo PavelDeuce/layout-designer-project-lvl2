@@ -1,0 +1,22 @@
+.track {
+  @include set-typography(13px, 26px, normal, capitalize);
+  color: $gray;
+
+  &-image {
+    width: px-to-rem(55px);
+    height: px-to-rem(55px);
+  }
+
+  &-data {
+    margin-left: px-to-rem(15px);
+  }
+
+  &-title {
+    @include set-typography(13px, 26px, bold, uppercase);
+    color: $white;
+  }
+
+  &-duration {
+    margin: auto 0;
+  }
+}

@@ -9,9 +9,9 @@ $btn-colors: (
   align-items: center;
   justify-content: center;
 
-  max-width: 200px;
+  max-width: px-to-rem(200px);
 
-  padding: 12px 0;
+  padding: px-to-rem(12px);
 
   text-transform: uppercase;
 
@@ -20,6 +20,13 @@ $btn-colors: (
   border: none;
   border-radius: px-to-rem(5px);
   cursor: pointer;
+
+  &-left-icon {
+    width: px-to-rem(24px);
+    height: px-to-rem(24px);
+
+    margin-right: px-to-rem(7px);
+  }
 
   @include set-typography(13px, 26px);
 }

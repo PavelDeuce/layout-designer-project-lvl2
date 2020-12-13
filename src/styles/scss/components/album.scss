@@ -1,0 +1,22 @@
+.album {
+  display: flex;
+  flex-direction: column;
+
+  color: $gray;
+  @include set-typography(16px, 32px, normal);
+
+  &-image {
+    width: px-to-rem(250px);
+    height: px-to-rem(250px);
+
+    @include set-media(sm) {
+      width: px-to-rem(137px);
+      height: px-to-rem(137px);
+    }
+  }
+
+  &-title {
+    margin-top: px-to-rem(18px);
+    @include set-typography(18px, 27px, bold, capitalize);
+  }
+}

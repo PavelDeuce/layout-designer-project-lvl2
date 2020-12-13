@@ -8,6 +8,7 @@ plugins:
   - stylelint-order
 
 rules:
+  length-zero-no-unit: null
   declaration-empty-line-before: null
   order/properties-order: []
   plugin/rational-order:

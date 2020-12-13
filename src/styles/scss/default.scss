@@ -3,9 +3,8 @@
 }
 
 html {
-  font-size: $rem-base;
   font-family: 'Roboto', sans-serif;
-  line-height: 150%;
+  @include set-typography($rem-base, 32px);
 }
 
 main {
@@ -68,7 +67,7 @@ a {
 }
 
 .container {
-  max-width: px-to-rem(1220px);
+  max-width: px-to-rem(1200px);
   margin: 0 auto;
 
   @include set-media(xl) {

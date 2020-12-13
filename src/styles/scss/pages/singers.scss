@@ -1,0 +1,57 @@
+.singers-page-description {
+  padding: px-to-rem(250px 0px 373px 0px);
+  @include set-bg-image(Morten Harket, png);
+  background-position: 70% 0;
+
+  .flex-container {
+    margin-top: px-to-rem(24px);
+    margin-left: px-to-rem(-24px);
+
+    & > * {
+      flex: 1 1 200px;
+      margin-top: px-to-rem(24px);
+      margin-left: px-to-rem(24px);
+    }
+  }
+
+  .btn-description {
+    justify-content: flex-start;
+    @include set-typography(13px, 26px, normal, uppercase);
+    padding-left: px-to-rem(30px);
+  }
+}
+
+.page-popular-track {
+  .flex-container {
+    margin-bottom: px-to-rem(-25px);
+    margin-left: px-to-rem(-50px);
+
+    & > * {
+      flex: 1 1 500px;
+      margin-bottom: px-to-rem(25px);
+      margin-left: px-to-rem(50px);
+    }
+  }
+}
+
+.page-discography,
+.page-similar {
+  .flex-container {
+    margin-bottom: px-to-rem(-25px);
+    margin-left: px-to-rem(-50px);
+
+    .reserve {
+      margin-bottom: 0;
+    }
+
+    & > * {
+      flex: 1 1 250px;
+      margin-bottom: px-to-rem(25px);
+      margin-left: px-to-rem(50px);
+
+      @include set-media(sm) {
+        flex: 1 1 137px;
+      }
+    }
+  }
+}

@@ -455,9 +455,11 @@ template {
 }
 
 html {
-  font-size: 16px;
   font-family: "Roboto", sans-serif;
-  line-height: 150%;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 2rem;
+  text-transform: inherit;
 }
 
 main {
@@ -538,7 +540,7 @@ a {
 }
 
 .container {
-  max-width: 76.25rem;
+  max-width: 75rem;
   margin: 0 auto;
 }
 @media (max-width: 1280px) {
@@ -611,8 +613,8 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 200px;
-  padding: 12px 0;
+  max-width: 12.5rem;
+  padding: 0.75rem;
   text-transform: uppercase;
   background: none;
   border: none;
@@ -622,6 +624,11 @@ a {
   font-size: 0.8125rem;
   line-height: 1.625rem;
   text-transform: inherit;
+}
+.btn-left-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.4375rem;
 }
 
 .btn-green {
@@ -752,6 +759,70 @@ a {
   border: 0.0625rem solid #cacaca;
 }
 
+.track {
+  font-weight: normal;
+  font-size: 0.8125rem;
+  line-height: 1.625rem;
+  text-transform: capitalize;
+  color: #e0e0e0;
+}
+.track-image {
+  width: 3.4375rem;
+  height: 3.4375rem;
+}
+.track-data {
+  margin-left: 0.9375rem;
+}
+.track-title {
+  font-weight: bold;
+  font-size: 0.8125rem;
+  line-height: 1.625rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+.track-duration {
+  margin: auto 0;
+}
+
+.album {
+  display: flex;
+  flex-direction: column;
+  color: #e0e0e0;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 2rem;
+  text-transform: inherit;
+}
+.album-image {
+  width: 15.625rem;
+  height: 15.625rem;
+}
+@media (max-width: 425px) {
+  .album-image {
+    width: 8.5625rem;
+    height: 8.5625rem;
+  }
+}
+.album-title {
+  margin-top: 1.125rem;
+  font-weight: bold;
+  font-size: 1.125rem;
+  line-height: 1.6875rem;
+  text-transform: capitalize;
+}
+
+.singer {
+  color: #e0e0e0;
+}
+.singer-name {
+  margin-top: 1.0625rem;
+  font-weight: bold;
+  font-size: 1.125rem;
+  line-height: 1.6875rem;
+  text-transform: inherit;
+  color: #fff;
+}
+
 .header {
   position: absolute;
   top: 1.5625rem;
@@ -853,41 +924,41 @@ a {
   padding: 0.625rem 0rem;
 }
 
-.page-description {
+.home-page-description {
   padding: 17rem 0rem 15.5rem 0rem;
   background: url("../images/banner.png") no-repeat center;
   background-size: cover;
 }
-.page-description .subtitle {
+.home-page-description .subtitle {
   font-weight: bold;
   font-size: 2.375rem;
   line-height: 3.5625rem;
   text-transform: uppercase;
 }
 @media (max-width: 425px) {
-  .page-description .subtitle {
+  .home-page-description .subtitle {
     font-weight: bold;
     font-size: 1.125rem;
     line-height: 1.6875rem;
     text-transform: uppercase;
   }
 }
-.page-description p {
+.home-page-description p {
   margin-top: 2rem;
 }
 @media (max-width: 425px) {
-  .page-description p {
+  .home-page-description p {
     margin-top: 1rem;
   }
 }
 
 .page-pricing .flex-container {
-  flex: 1 1 370px;
+  flex: 1 1 350px;
   margin-bottom: -2.5rem;
   margin-left: -3rem;
 }
 .page-pricing .flex-container > * {
-  max-width: 23.125rem;
+  max-width: 21.875rem;
   margin-bottom: 2.5rem;
   margin-left: 3rem;
 }
@@ -954,6 +1025,62 @@ a {
 }
 .page-app p {
   margin-bottom: 1rem;
+}
+
+.singers-page-description {
+  padding: 15.625rem 0rem 23.3125rem 0rem;
+  background: url("../images/Morten Harket.png") no-repeat center;
+  background-size: cover;
+  background-position: 70% 0;
+}
+.singers-page-description .flex-container {
+  margin-top: 1.5rem;
+  margin-left: -1.5rem;
+}
+.singers-page-description .flex-container > * {
+  flex: 1 1 200px;
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+}
+.singers-page-description .btn-description {
+  justify-content: flex-start;
+  font-weight: normal;
+  font-size: 0.8125rem;
+  line-height: 1.625rem;
+  text-transform: uppercase;
+  padding-left: 1.875rem;
+}
+
+.page-popular-track .flex-container {
+  margin-bottom: -1.5625rem;
+  margin-left: -3.125rem;
+}
+.page-popular-track .flex-container > * {
+  flex: 1 1 500px;
+  margin-bottom: 1.5625rem;
+  margin-left: 3.125rem;
+}
+
+.page-discography .flex-container,
+.page-similar .flex-container {
+  margin-bottom: -1.5625rem;
+  margin-left: -3.125rem;
+}
+.page-discography .flex-container .reserve,
+.page-similar .flex-container .reserve {
+  margin-bottom: 0;
+}
+.page-discography .flex-container > *,
+.page-similar .flex-container > * {
+  flex: 1 1 250px;
+  margin-bottom: 1.5625rem;
+  margin-left: 3.125rem;
+}
+@media (max-width: 425px) {
+  .page-discography .flex-container > *,
+.page-similar .flex-container > * {
+    flex: 1 1 137px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
