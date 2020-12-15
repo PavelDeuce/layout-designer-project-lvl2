@@ -15,12 +15,12 @@
     }
 
     .footer-title {
-      margin: px-to-rem(20px 0px);
+      margin-bottom: px-to-rem(16px);
       @include set-typography(18px, 27px, bold, uppercase);
     }
 
     img {
-      margin-right: px-to-rem(20px);
+      margin-right: px-to-rem(24px);
     }
   }
 
@@ -31,9 +31,12 @@
       flex-direction: column;
     }
 
-    li {
+    li:not(:last-child) {
       margin-right: px-to-rem(15px);
-      padding: px-to-rem(10px 0px);
+
+      @include set-media(md) {
+        margin-bottom: px-to-rem(16px);
+      }
     }
   }
 }

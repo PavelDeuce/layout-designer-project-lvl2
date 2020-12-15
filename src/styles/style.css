@@ -539,6 +539,10 @@ a {
   text-decoration: none;
 }
 
+hr {
+  margin: 0;
+}
+
 .container {
   max-width: 75rem;
   margin: 0 auto;
@@ -905,14 +909,14 @@ a {
   margin-left: 1.875rem;
 }
 .footer .column-links .footer-title {
-  margin: 1.25rem 0rem;
+  margin-bottom: 1rem;
   font-weight: bold;
   font-size: 1.125rem;
   line-height: 1.6875rem;
   text-transform: uppercase;
 }
 .footer .column-links img {
-  margin-right: 1.25rem;
+  margin-right: 1.5rem;
 }
 .footer .row-links ul {
   padding: 2.5rem 0rem 3rem;
@@ -922,9 +926,13 @@ a {
     flex-direction: column;
   }
 }
-.footer .row-links ul li {
+.footer .row-links ul li:not(:last-child) {
   margin-right: 0.9375rem;
-  padding: 0.625rem 0rem;
+}
+@media (max-width: 768px) {
+  .footer .row-links ul li:not(:last-child) {
+    margin-bottom: 1rem;
+  }
 }
 
 .home-page-description {
