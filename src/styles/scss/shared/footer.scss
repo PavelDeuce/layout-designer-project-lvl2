@@ -17,6 +17,7 @@
     .footer-title {
       margin-bottom: px-to-rem(16px);
       @include set-typography(18px, 27px, bold, uppercase);
+      color: $white;
     }
 
     img {
