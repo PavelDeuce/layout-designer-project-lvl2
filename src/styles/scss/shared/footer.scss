@@ -3,20 +3,20 @@
 
   & .column-links {
     & .flex-container {
-      margin-bottom: px-to-rem(-20px);
+      margin-bottom: px-to-rem(-30px);
       margin-left: px-to-rem(-30px);
       padding: px-to-rem(61px 0px 74px);
 
       & > * {
         flex: 1 1 200px;
-        margin-bottom: px-to-rem(20px);
+        margin-bottom: px-to-rem(30px);
         margin-left: px-to-rem(30px);
       }
     }
 
     .footer-title {
       margin: px-to-rem(20px 0px);
-      @include set-typography(18px, 36px, bold, uppercase);
+      @include set-typography(18px, 27px, bold, uppercase);
     }
 
     img {
@@ -25,7 +25,7 @@
   }
 
   & .row-links ul {
-    padding: px-to-rem(40px 0px);
+    padding: px-to-rem(40px 0px 48px);
 
     @include set-media(md) {
       flex-direction: column;

@@ -895,27 +895,27 @@ a {
   background: linear-gradient(265.08deg, #95390c 14.9%, #5328a1 68.95%);
 }
 .footer .column-links .flex-container {
-  margin-bottom: -1.25rem;
+  margin-bottom: -1.875rem;
   margin-left: -1.875rem;
   padding: 3.8125rem 0rem 4.625rem;
 }
 .footer .column-links .flex-container > * {
   flex: 1 1 200px;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.875rem;
   margin-left: 1.875rem;
 }
 .footer .column-links .footer-title {
   margin: 1.25rem 0rem;
   font-weight: bold;
   font-size: 1.125rem;
-  line-height: 2.25rem;
+  line-height: 1.6875rem;
   text-transform: uppercase;
 }
 .footer .column-links img {
   margin-right: 1.25rem;
 }
 .footer .row-links ul {
-  padding: 2.5rem 0rem;
+  padding: 2.5rem 0rem 3rem;
 }
 @media (max-width: 768px) {
   .footer .row-links ul {
