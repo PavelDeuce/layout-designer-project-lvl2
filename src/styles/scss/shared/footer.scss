@@ -1,16 +1,16 @@
 .footer {
-  @include set-bg-gradient($red, $purple);
+  @include set-bg-gradient($purple, $red);
 
   & .column-links {
     & .flex-container {
       margin-bottom: px-to-rem(-30px);
-      margin-left: px-to-rem(-30px);
-      padding: px-to-rem(61px 0px 72px);
+      margin-left: px-to-rem(-32px);
+      padding: px-to-rem(61px 0px 74px);
 
       & > * {
         flex: 1 1 200px;
         margin-bottom: px-to-rem(30px);
-        margin-left: px-to-rem(30px);
+        margin-left: px-to-rem(32px);
       }
     }
 
