@@ -458,7 +458,7 @@ html {
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-size: 1rem;
-  line-height: 2rem;
+  line-height: 1.5rem;
   text-transform: inherit;
 }
 
@@ -679,7 +679,11 @@ a {
 }
 .card-title {
   position: absolute;
-  top: 1.5rem;
+  top: 1.3125rem;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 2.8125rem;
+  text-transform: uppercase;
 }
 .card-price {
   font-weight: normal;
@@ -689,6 +693,7 @@ a {
 }
 .card-price .currency {
   top: -0.75em;
+  margin-left: 1rem;
   font-weight: normal;
   font-size: 2rem;
   line-height: 4rem;
@@ -699,6 +704,7 @@ a {
   font-size: 1rem;
   line-height: 2rem;
   text-transform: uppercase;
+  max-width: 100%;
   margin-top: 1.5rem;
   padding: 1.3125rem 0rem;
   border: 0.0625rem solid #fff;
@@ -706,9 +712,9 @@ a {
 .card-small-text {
   font-weight: normal;
   font-size: 0.8125rem;
-  line-height: 1.625rem;
+  line-height: 1.25rem;
   text-transform: inherit;
-  margin: 2.1875rem 0rem 4.125rem;
+  margin: 4rem 0rem 4.125rem;
 }
 
 .feed {
@@ -905,9 +911,6 @@ a {
   line-height: 2.25rem;
   text-transform: uppercase;
 }
-.footer .column-links li {
-  margin-bottom: 0.5rem;
-}
 .footer .column-links img {
   margin-right: 1.25rem;
 }
@@ -1009,11 +1012,11 @@ a {
 }
 
 .page-app .flex-container {
-  flex: 1 1 600px;
+  flex: 1 1 700px;
   margin-left: -9rem;
 }
 .page-app .flex-container > * {
-  max-width: 37.5rem;
+  max-width: 43.75rem;
   margin-left: 9rem;
 }
 .page-app .app-info {

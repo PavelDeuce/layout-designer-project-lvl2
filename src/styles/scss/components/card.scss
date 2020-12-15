@@ -14,7 +14,8 @@
 
   &-title {
     position: absolute;
-    top: px-to-rem(24px);
+    top: px-to-rem(21px);
+    @include set-typography(24px, 45px, normal, uppercase);
   }
 
   &-price {
@@ -22,12 +23,15 @@
 
     .currency {
       top: -0.75em;
+
+      margin-left: px-to-rem(16px);
       @include set-typography(32px, 64px, normal, uppercase);
     }
   }
 
   &-btn {
     @include set-typography(16px, 32px, normal, uppercase);
+    max-width: 100%;
     margin-top: px-to-rem(24px);
     padding: px-to-rem(21px 0px);
 
@@ -35,7 +39,7 @@
   }
 
   &-small-text {
-    @include set-typography(13px, 26px);
-    margin: px-to-rem(35px 0px 66px);
+    @include set-typography(13px, 20px);
+    margin: px-to-rem(64px 0px 66px);
   }
 }

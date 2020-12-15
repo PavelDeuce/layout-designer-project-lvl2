@@ -4,7 +4,7 @@
 
 html {
   font-family: 'Roboto', sans-serif;
-  @include set-typography($rem-base, 32px);
+  @include set-typography($rem-base, 24px);
 }
 
 main {

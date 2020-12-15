@@ -90,11 +90,11 @@ $subscriptions: (
 
 .page-app {
   .flex-container {
-    flex: 1 1 600px;
+    flex: 1 1 700px;
     margin-left: px-to-rem(-144px);
 
     & > * {
-      max-width: px-to-rem(600px);
+      max-width: px-to-rem(700px);
       margin-left: px-to-rem(144px);
     }
   }

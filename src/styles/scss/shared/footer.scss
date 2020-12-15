@@ -19,10 +19,6 @@
       @include set-typography(18px, 36px, bold, uppercase);
     }
 
-    li {
-      margin-bottom: px-to-rem(8px);
-    }
-
     img {
       margin-right: px-to-rem(20px);
     }
