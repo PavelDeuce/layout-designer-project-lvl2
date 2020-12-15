@@ -541,6 +541,8 @@ a {
 
 hr {
   margin: 0;
+  border: 0;
+  border-bottom: 1px solid;
 }
 
 .container {
@@ -896,7 +898,7 @@ hr {
 }
 
 .footer {
-  background: linear-gradient(265.08deg, #95390c 14.9%, #5328a1 68.95%);
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
 .footer .column-links .flex-container {
   margin-bottom: -1.875rem;
