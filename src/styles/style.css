@@ -679,8 +679,8 @@ hr {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  min-height: 38.75rem;
-  padding: 0rem 1.5625rem;
+  min-height: 38.6875rem;
+  padding: 0rem 1.5rem;
   border-radius: 0.625rem;
 }
 .card-title {
@@ -702,13 +702,13 @@ hr {
   margin-left: 1rem;
   font-weight: normal;
   font-size: 2rem;
-  line-height: 4rem;
+  line-height: 3rem;
   text-transform: uppercase;
 }
 .card-btn {
   font-weight: normal;
   font-size: 1rem;
-  line-height: 2rem;
+  line-height: 1.5rem;
   text-transform: uppercase;
   max-width: 100%;
   margin-top: 1.5rem;
@@ -717,8 +717,8 @@ hr {
 }
 .card-small-text {
   font-weight: normal;
-  font-size: 0.8125rem;
-  line-height: 1.25rem;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
   text-transform: inherit;
   margin: 4rem 0rem 4.125rem;
 }
@@ -967,14 +967,14 @@ hr {
 }
 
 .page-pricing .flex-container {
-  flex: 1 1 350px;
-  margin-bottom: -2.5rem;
-  margin-left: -3rem;
+  flex: 1 1 367px;
+  margin-bottom: -3.125rem;
+  margin-left: -2.0625rem;
 }
 .page-pricing .flex-container > * {
-  max-width: 21.875rem;
-  margin-bottom: 2.5rem;
-  margin-left: 3rem;
+  max-width: 22.9375rem;
+  margin-bottom: 3.125rem;
+  margin-left: 2.0625rem;
 }
 .page-pricing .bg-free {
   background: url("../images/subscribe_1.png") no-repeat center;
@@ -989,11 +989,12 @@ hr {
   background-size: cover;
 }
 .page-pricing > p {
-  margin-top: 40px;
+  margin-top: 2.4375rem;
+  margin-bottom: 0.9375rem;
 }
 @media (max-width: 425px) {
   .page-pricing > p {
-    margin-top: 20px;
+    margin-top: 1.25rem;
   }
 }
 

@@ -36,24 +36,25 @@ $subscriptions: (
 
 .page-pricing {
   .flex-container {
-    flex: 1 1 350px;
-    margin-bottom: px-to-rem(-40px);
-    margin-left: px-to-rem(-48px);
+    flex: 1 1 367px;
+    margin-bottom: px-to-rem(-50px);
+    margin-left: px-to-rem(-33px);
 
     & > * {
-      max-width: px-to-rem(350px);
-      margin-bottom: px-to-rem(40px);
-      margin-left: px-to-rem(48px);
+      max-width: px-to-rem(367px);
+      margin-bottom: px-to-rem(50px);
+      margin-left: px-to-rem(33px);
     }
   }
 
   @include set-card-bg();
 
   & > p {
-    margin-top: 40px;
+    margin-top: px-to-rem(39px);
+    margin-bottom: px-to-rem(15px);
 
     @include set-media(sm) {
-      margin-top: 20px;
+      margin-top: px-to-rem(20px);
     }
   }
 }
