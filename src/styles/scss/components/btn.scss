@@ -28,7 +28,7 @@ $btn-colors: (
     margin-right: px-to-rem(7px);
   }
 
-  @include set-typography(13px, 26px);
+  @include set-typography(12.8px, 19.2px);
 }
 @each $color-name, $color in $btn-colors {
   .btn-#{$color-name} {

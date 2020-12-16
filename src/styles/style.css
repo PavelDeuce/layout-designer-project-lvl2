@@ -611,6 +611,10 @@ hr {
   padding-top: 6.25rem;
 }
 
+.pb-48 {
+  padding-bottom: 3rem;
+}
+
 .pb-50 {
   padding-bottom: 3.125rem;
 }
@@ -627,8 +631,8 @@ hr {
   border-radius: 0.3125rem;
   cursor: pointer;
   font-weight: normal;
-  font-size: 0.8125rem;
-  line-height: 1.625rem;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
   text-transform: inherit;
 }
 .btn-left-icon {
@@ -906,7 +910,8 @@ hr {
   padding: 3.8125rem 0rem 4.625rem;
 }
 .footer .column-links .flex-container > * {
-  flex: 1 1 200px;
+  flex: 1 1 246px;
+  max-width: 246px;
   margin-bottom: 1.875rem;
   margin-left: 2rem;
 }
@@ -1032,10 +1037,11 @@ hr {
   margin-left: 9rem;
 }
 .page-app .app-info {
-  margin-top: 16px;
+  margin-top: 1rem;
 }
 .page-app .download-btn {
   max-width: 8.125rem;
+  padding: 1.0625rem 0rem;
   border-radius: 2rem;
 }
 .page-app p {

@@ -101,11 +101,12 @@ $subscriptions: (
   }
 
   .app-info {
-    margin-top: 16px;
+    margin-top: px-to-rem(16px);
   }
 
   .download-btn {
     max-width: px-to-rem(130px);
+    padding: px-to-rem(17px 0px);
 
     border-radius: px-to-rem(32px);
   }
