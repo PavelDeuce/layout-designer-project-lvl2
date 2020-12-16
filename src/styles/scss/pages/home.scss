@@ -71,20 +71,20 @@ $subscriptions: (
   }
 
   & > article:not(:last-child) {
-    margin-bottom: px-to-rem(65px);
+    margin-bottom: px-to-rem(64px);
   }
 
   p {
     margin-top: px-to-rem(30px);
 
     @include set-media(sm) {
-      margin-top: px-to-rem(15px);
+      margin-top: px-to-rem(16px);
     }
   }
 
   .news-image {
     @include set-media(sm) {
-      height: px-to-rem(187px);
+      height: px-to-rem(186px);
     }
   }
 }
@@ -105,8 +105,7 @@ $subscriptions: (
   }
 
   .download-btn {
-    max-width: px-to-rem(130px);
-    padding: px-to-rem(17px 0px);
+    max-width: px-to-rem(131px);
 
     border-radius: px-to-rem(32px);
   }
