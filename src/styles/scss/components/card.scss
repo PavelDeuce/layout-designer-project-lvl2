@@ -16,6 +16,11 @@
     position: absolute;
     top: px-to-rem(21px);
     @include set-typography(24px, 45px, normal, uppercase);
+
+    @include set-media(sm) {
+      top: px-to-rem(18px);
+      @include set-typography(16px, 24px, bold, uppercase);
+    }
   }
 
   &-price {
