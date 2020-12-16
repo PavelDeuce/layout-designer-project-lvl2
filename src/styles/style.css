@@ -549,7 +549,7 @@ hr {
   max-width: 75rem;
   margin: 0 auto;
 }
-@media (max-width: 1280px) {
+@media (max-width: 768px) {
   .container {
     padding: 0rem 1.25rem;
   }
@@ -683,9 +683,14 @@ hr {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  min-height: 38.6875rem;
+  min-height: 38.8125rem;
   padding: 0rem 1.5rem;
   border-radius: 0.625rem;
+}
+@media (max-width: 425px) {
+  .card {
+    min-height: 37.1875rem;
+  }
 }
 .card-title {
   position: absolute;

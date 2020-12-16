@@ -77,7 +77,7 @@ hr {
   max-width: px-to-rem(1200px);
   margin: 0 auto;
 
-  @include set-media(xl) {
+  @include set-media(md) {
     padding: px-to-rem(0px 20px);
   }
 }

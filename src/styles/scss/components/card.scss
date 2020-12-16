@@ -6,11 +6,15 @@
   align-items: center;
   justify-content: flex-end;
 
-  min-height: px-to-rem(619px);
+  min-height: px-to-rem(621px);
 
   padding: px-to-rem(0px 24px);
 
   border-radius: px-to-rem(10px);
+
+  @include set-media(sm) {
+    min-height: px-to-rem(595px);
+  }
 
   &-title {
     position: absolute;
