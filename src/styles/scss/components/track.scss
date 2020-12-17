@@ -1,5 +1,5 @@
 .track {
-  @include set-typography(13px, 26px, normal, capitalize);
+  @include set-typography(12.8px, 19.2px, normal, capitalize);
   color: $gray;
 
   &-image {
@@ -12,7 +12,8 @@
   }
 
   &-title {
-    @include set-typography(13px, 26px, bold, uppercase);
+    padding-top: px-to-rem(7px);
+    @include set-typography(12.8px, 19.2px, bold, uppercase);
     color: $white;
   }
 

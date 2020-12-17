@@ -789,8 +789,8 @@ hr {
 
 .track {
   font-weight: normal;
-  font-size: 0.8125rem;
-  line-height: 1.625rem;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
   text-transform: capitalize;
   color: #e0e0e0;
 }
@@ -802,9 +802,10 @@ hr {
   margin-left: 0.9375rem;
 }
 .track-title {
+  padding-top: 0.4375rem;
   font-weight: bold;
-  font-size: 0.8125rem;
-  line-height: 1.625rem;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
   text-transform: uppercase;
   color: #fff;
 }
@@ -818,7 +819,7 @@ hr {
   color: #e0e0e0;
   font-weight: normal;
   font-size: 1rem;
-  line-height: 2rem;
+  line-height: 1.5rem;
   text-transform: inherit;
 }
 .album-image {
@@ -843,7 +844,7 @@ hr {
   color: #e0e0e0;
 }
 .singer-name {
-  margin-top: 1.0625rem;
+  margin-top: 1.125rem;
   font-weight: bold;
   font-size: 1.125rem;
   line-height: 1.6875rem;
@@ -1084,8 +1085,10 @@ hr {
 }
 .page-popular-track .flex-container > * {
   flex: 1 1 500px;
-  margin-bottom: 1.5625rem;
   margin-left: 3.125rem;
+}
+.page-popular-track .flex-container > *:not(:last-child) {
+  margin-bottom: 1.5625rem;
 }
 
 .page-discography .flex-container,
@@ -1093,21 +1096,31 @@ hr {
   margin-bottom: -1.5625rem;
   margin-left: -3.125rem;
 }
-.page-discography .flex-container .reserve,
-.page-similar .flex-container .reserve {
-  margin-bottom: 0;
-}
 .page-discography .flex-container > *,
 .page-similar .flex-container > * {
-  flex: 1 1 250px;
-  margin-bottom: 1.5625rem;
+  flex: 1 1 200px;
   margin-left: 3.125rem;
+}
+.page-discography .flex-container > *:not(:last-child),
+.page-similar .flex-container > *:not(:last-child) {
+  margin-bottom: 1.5625rem;
 }
 @media (max-width: 425px) {
   .page-discography .flex-container > *,
 .page-similar .flex-container > * {
     flex: 1 1 137px;
+    max-width: 8.625rem;
   }
+}
+@media (max-width: 425px) {
+  .page-discography .flex-container .last-album,
+.page-similar .flex-container .last-album {
+    margin-bottom: 0;
+  }
+}
+.page-discography .flex-container .reserve,
+.page-similar .flex-container .reserve {
+  margin-bottom: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
