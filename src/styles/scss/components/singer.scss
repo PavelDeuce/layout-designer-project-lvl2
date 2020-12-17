@@ -2,7 +2,7 @@
   color: $gray;
 
   &-name {
-    margin-top: px-to-rem(17px);
+    margin-top: px-to-rem(18px);
 
     @include set-typography(18px, 27px, bold);
     color: $white;

@@ -3,7 +3,7 @@
   flex-direction: column;
 
   color: $gray;
-  @include set-typography(16px, 32px, normal);
+  @include set-typography(16px, 24px, normal);
 
   &-image {
     width: px-to-rem(250px);
