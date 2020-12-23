@@ -13,7 +13,7 @@ $header-placeholder: #757575;
   @include set-typography(11px, 13px, bold, uppercase);
 
   .logo {
-    margin-right: px-to-rem(100px);
+    margin-right: px-to-rem(64px);
 
     &-image {
       width: px-to-rem(20px);
@@ -26,8 +26,8 @@ $header-placeholder: #757575;
   }
 
   .search-input {
-    min-width: 248px;
-    height: px-to-rem(26px);
+    min-width: px-to-rem(248px);
+    height: px-to-rem(25px);
 
     margin-left: auto;
     padding: px-to-rem(0px 14px);
