@@ -1040,11 +1040,11 @@ hr {
 
 .page-app .flex-container {
   flex: 1 1 600px;
-  margin-left: -16.6875rem;
+  margin-left: -9rem;
 }
 .page-app .flex-container > * {
   max-width: 37.5rem;
-  margin-left: 16.6875rem;
+  margin-left: 9rem;
 }
 .page-app .app-info {
   margin-top: 1rem;
