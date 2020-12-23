@@ -1039,12 +1039,12 @@ hr {
 }
 
 .page-app .flex-container {
-  flex: 1 1 700px;
-  margin-left: -9rem;
+  flex: 1 1 600px;
+  margin-left: -16.6875rem;
 }
 .page-app .flex-container > * {
-  max-width: 43.75rem;
-  margin-left: 9rem;
+  max-width: 37.5rem;
+  margin-left: 16.6875rem;
 }
 .page-app .app-info {
   margin-top: 1rem;
