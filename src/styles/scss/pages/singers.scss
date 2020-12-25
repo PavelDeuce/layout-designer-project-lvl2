@@ -49,11 +49,8 @@
 
     & > * {
       flex: 1 1 250px;
+      margin-bottom: px-to-rem(25px);
       margin-left: px-to-rem(50px);
-
-      &:not(:last-child) {
-        margin-bottom: px-to-rem(25px);
-      }
 
       @include set-media(sm) {
         flex: 1 1 137px;
@@ -61,10 +58,8 @@
       }
     }
 
-    @include set-media(sm) {
-      .last-album {
-        margin-bottom: 0;
-      }
+    .last-item {
+      margin-bottom: 0;
     }
 
     .reserve {

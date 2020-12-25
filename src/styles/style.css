@@ -1100,11 +1100,8 @@ hr {
 .page-discography .flex-container > *,
 .page-similar .flex-container > * {
   flex: 1 1 250px;
-  margin-left: 3.125rem;
-}
-.page-discography .flex-container > *:not(:last-child),
-.page-similar .flex-container > *:not(:last-child) {
   margin-bottom: 1.5625rem;
+  margin-left: 3.125rem;
 }
 @media (max-width: 425px) {
   .page-discography .flex-container > *,
@@ -1113,11 +1110,9 @@ hr {
     max-width: 8.625rem;
   }
 }
-@media (max-width: 425px) {
-  .page-discography .flex-container .last-album,
-.page-similar .flex-container .last-album {
-    margin-bottom: 0;
-  }
+.page-discography .flex-container .last-item,
+.page-similar .flex-container .last-item {
+  margin-bottom: 0;
 }
 .page-discography .flex-container .reserve,
 .page-similar .flex-container .reserve {
