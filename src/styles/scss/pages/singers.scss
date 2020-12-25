@@ -1,7 +1,10 @@
 .singers-page-description {
-  padding: px-to-rem(250px 0px 373px 0px);
+  padding: px-to-rem(250px 0px 233px 0px);
   @include set-bg-image(Morten Harket, png);
-  background-position: 70% 0;
+
+  h1 {
+    margin-bottom: px-to-rem(16px);
+  }
 
   .flex-container {
     margin-top: px-to-rem(24px);
@@ -16,8 +19,9 @@
 
   .btn-description {
     justify-content: flex-start;
-    @include set-typography(13px, 26px, normal, uppercase);
-    padding-left: px-to-rem(30px);
+    min-height: px-to-rem(62px);
+    @include set-typography(12.8px, 19.2px, normal, uppercase);
+    padding-left: px-to-rem(31px);
   }
 }
 

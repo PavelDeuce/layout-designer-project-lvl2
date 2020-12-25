@@ -38,12 +38,12 @@ $subscriptions: (
   .flex-container {
     flex: 1 1 367px;
     margin-bottom: px-to-rem(-50px);
-    margin-left: px-to-rem(-33px);
+    margin-left: px-to-rem(-49px);
 
     & > * {
       max-width: px-to-rem(367px);
       margin-bottom: px-to-rem(50px);
-      margin-left: px-to-rem(33px);
+      margin-left: px-to-rem(49px);
     }
   }
 
@@ -58,11 +58,11 @@ $subscriptions: (
 .page-news {
   .flex-container {
     flex: 1 1 575px;
-    margin-left: px-to-rem(-50px);
+    margin-left: -50px;
 
     & > * {
-      max-width: px-to-rem(575px);
-      margin-left: px-to-rem(50px);
+      max-width: 575px;
+      margin-left: 50px;
     }
   }
 
