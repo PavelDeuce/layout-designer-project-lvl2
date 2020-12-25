@@ -74,10 +74,8 @@ hr {
 }
 
 .container {
-  max-width: px-to-rem(1200px);
+  max-width: px-to-rem(1240px);
   margin: 0 auto;
 
-  @include set-media(md) {
-    padding: px-to-rem(0px 20px);
-  }
+  padding: px-to-rem(0px 20px);
 }
