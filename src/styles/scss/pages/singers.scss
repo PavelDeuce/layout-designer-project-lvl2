@@ -2,6 +2,10 @@
   padding: px-to-rem(250px 0px 223px 0px);
   @include set-bg-image(Morten Harket, png);
 
+  @include set-media(sm) {
+    padding: px-to-rem(225px 0px 224px 0px);
+  }
+
   h1 {
     margin-bottom: px-to-rem(16px);
   }
