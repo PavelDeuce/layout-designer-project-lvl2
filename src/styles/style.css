@@ -683,7 +683,7 @@ hr {
   justify-content: flex-end;
   min-height: 38.8125rem;
   padding: 0rem 1.5rem;
-  border-radius: 0.625rem;
+  border-radius: 1rem;
 }
 @media (max-width: 425px) {
   .card {
@@ -867,8 +867,8 @@ hr {
   margin-right: 4rem;
 }
 .header .logo-image {
-  width: 1.25rem;
-  margin-right: 0.3125rem;
+  width: 1.5rem;
+  margin-right: 1rem;
 }
 .header .logo-title {
   padding: 0.3125rem 0rem;
@@ -1054,7 +1054,7 @@ hr {
 }
 
 .singers-page-description {
-  padding: 15.625rem 0rem 14.5625rem 0rem;
+  padding: 15.625rem 0rem 13.9375rem 0rem;
   background: url("../images/Morten Harket.png") no-repeat center;
   background-size: cover;
 }

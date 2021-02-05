@@ -10,7 +10,7 @@
 
   padding: px-to-rem(0px 24px);
 
-  border-radius: px-to-rem(10px);
+  border-radius: px-to-rem(16px);
 
   @include set-media(sm) {
     min-height: px-to-rem(595px);
