@@ -17,6 +17,10 @@ $subscriptions: (
 
   @include set-bg-image(banner, png);
 
+  @include set-media(sm) {
+    padding: px-to-rem(250px 0px 199px 0px);
+  }
+
   .subtitle {
     @include set-typography(38px, 57px, bold, uppercase);
 

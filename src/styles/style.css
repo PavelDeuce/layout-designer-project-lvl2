@@ -669,10 +669,19 @@ hr {
   border: 0.125rem solid #fff;
   border-radius: 0.1875rem;
 }
+@media (max-width: 425px) {
+  .form-input:not(:first-child) {
+    margin-top: 1.875rem;
+  }
+}
 .form .form-btn {
   flex: 1 1 570px;
   max-width: 35.625rem;
   min-height: 3.5625rem;
+  font-weight: normal;
+  font-size: 0.83125rem;
+  line-height: 0.9375rem;
+  text-transform: uppercase;
 }
 
 .card {
@@ -949,6 +958,11 @@ hr {
   padding: 12.5rem 0rem;
   background: url("../images/banner.png") no-repeat center;
   background-size: cover;
+}
+@media (max-width: 425px) {
+  .home-page-description {
+    padding: 15.625rem 0rem 12.4375rem 0rem;
+  }
 }
 .home-page-description .subtitle {
   font-weight: bold;

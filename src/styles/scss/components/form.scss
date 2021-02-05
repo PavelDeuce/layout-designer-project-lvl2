@@ -21,9 +21,17 @@
     border-radius: px-to-rem(3px);
   }
 
+  &-input:not(:first-child) {
+    @include set-media(sm) {
+      margin-top: px-to-rem(30px);
+    }
+  }
+
   .form-btn {
     flex: 1 1 570px;
     max-width: px-to-rem(570px);
     min-height: px-to-rem(57px);
+
+    @include set-typography(13.3px, 15px, normal, uppercase);
   }
 }
