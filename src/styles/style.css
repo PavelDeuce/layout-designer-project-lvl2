@@ -1023,7 +1023,7 @@ hr {
   margin-left: 50px;
 }
 .page-news > article:not(:last-child) {
-  margin-bottom: 4rem;
+  margin-bottom: 4.0625rem;
 }
 .page-news p {
   margin-top: 1.875rem;
@@ -1033,15 +1033,31 @@ hr {
     margin-top: 1rem;
   }
 }
+.page-news .news-image {
+  height: 17.875rem;
+}
 @media (max-width: 425px) {
   .page-news .news-image {
     height: 11.625rem;
+  }
+}
+.page-news .news-data-special-margin {
+  margin-top: 0.9375rem;
+}
+@media (max-width: 425px) {
+  .page-news .news-data-special-margin {
+    margin-top: 1rem;
   }
 }
 
 .page-app .flex-container {
   flex: 1 1 600px;
   margin-left: -9rem;
+}
+@media (max-width: 425px) {
+  .page-app .flex-container {
+    justify-content: center;
+  }
 }
 .page-app .flex-container > * {
   max-width: 37.5rem;

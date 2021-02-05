@@ -71,7 +71,7 @@ $subscriptions: (
   }
 
   & > article:not(:last-child) {
-    margin-bottom: px-to-rem(64px);
+    margin-bottom: px-to-rem(65px);
   }
 
   p {
@@ -83,8 +83,18 @@ $subscriptions: (
   }
 
   .news-image {
+    height: px-to-rem(286px);
+
     @include set-media(sm) {
       height: px-to-rem(186px);
+    }
+  }
+
+  .news-data-special-margin {
+    margin-top: px-to-rem(15px);
+
+    @include set-media(sm) {
+      margin-top: px-to-rem(16px);
     }
   }
 }
@@ -93,6 +103,10 @@ $subscriptions: (
   .flex-container {
     flex: 1 1 600px;
     margin-left: px-to-rem(-144px);
+
+    @include set-media(sm) {
+      justify-content: center;
+    }
 
     & > * {
       max-width: px-to-rem(600px);
