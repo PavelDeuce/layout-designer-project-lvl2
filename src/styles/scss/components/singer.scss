@@ -1,8 +1,10 @@
 .singer {
+  max-width: px-to-rem(250px);
+
   color: $gray;
 
   &-name {
-    margin-top: px-to-rem(18px);
+    margin-top: px-to-rem(17px);
 
     @include set-typography(18px, 27px, bold);
     color: $white;

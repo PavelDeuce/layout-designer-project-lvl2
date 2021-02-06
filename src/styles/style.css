@@ -849,10 +849,11 @@ hr {
 }
 
 .singer {
+  max-width: 15.625rem;
   color: #e0e0e0;
 }
 .singer-name {
-  margin-top: 1.125rem;
+  margin-top: 1.0625rem;
   font-weight: bold;
   font-size: 1.125rem;
   line-height: 1.6875rem;
