@@ -653,14 +653,14 @@ hr {
 }
 
 .form {
-  max-width: 37.5rem;
+  max-width: 35.625rem;
   margin: 0 auto 0;
 }
 .form > * {
   margin: 1.875rem 0.9375rem 0rem;
 }
 .form-input {
-  flex: 1 1 270px;
+  flex: 1 1 250px;
   min-height: 3.125rem;
   margin-top: 0.9375rem;
   padding: 0rem 0.9375rem;
@@ -690,7 +690,7 @@ hr {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  min-height: 38.8125rem;
+  min-height: 38.6875rem;
   padding: 0rem 1.5rem;
   border-radius: 1rem;
 }
