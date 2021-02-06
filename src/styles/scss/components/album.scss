@@ -2,6 +2,8 @@
   display: flex;
   flex-direction: column;
 
+  max-width: 250px;
+
   color: $gray;
   @include set-typography(16px, 24px, normal);
 

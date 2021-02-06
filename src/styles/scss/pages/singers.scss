@@ -31,16 +31,24 @@
 
 .page-popular-track {
   .flex-container {
-    margin-bottom: px-to-rem(-25px);
     margin-left: px-to-rem(-50px);
 
     & > * {
       flex: 1 1 500px;
+      margin-bottom: px-to-rem(25px);
       margin-left: px-to-rem(50px);
+    }
+  }
 
-      &:not(:last-child) {
-        margin-bottom: px-to-rem(25px);
-      }
+  .last-track {
+    margin-bottom: 0;
+  }
+
+  .penultimate-track {
+    margin-bottom: 0;
+
+    @include set-media(lg) {
+      margin-bottom: px-to-rem(25px);
     }
   }
 }
@@ -48,7 +56,6 @@
 .page-discography,
 .page-similar {
   .flex-container {
-    margin-bottom: px-to-rem(-25px);
     margin-left: px-to-rem(-50px);
 
     & > * {

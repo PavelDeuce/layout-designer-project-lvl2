@@ -823,6 +823,7 @@ hr {
 .album {
   display: flex;
   flex-direction: column;
+  max-width: 250px;
   color: #e0e0e0;
   font-weight: normal;
   font-size: 1rem;
@@ -1107,20 +1108,27 @@ hr {
 }
 
 .page-popular-track .flex-container {
-  margin-bottom: -1.5625rem;
   margin-left: -3.125rem;
 }
 .page-popular-track .flex-container > * {
   flex: 1 1 500px;
+  margin-bottom: 1.5625rem;
   margin-left: 3.125rem;
 }
-.page-popular-track .flex-container > *:not(:last-child) {
-  margin-bottom: 1.5625rem;
+.page-popular-track .last-track {
+  margin-bottom: 0;
+}
+.page-popular-track .penultimate-track {
+  margin-bottom: 0;
+}
+@media (max-width: 1024px) {
+  .page-popular-track .penultimate-track {
+    margin-bottom: 1.5625rem;
+  }
 }
 
 .page-discography .flex-container,
 .page-similar .flex-container {
-  margin-bottom: -1.5625rem;
   margin-left: -3.125rem;
 }
 .page-discography .flex-container > *,
