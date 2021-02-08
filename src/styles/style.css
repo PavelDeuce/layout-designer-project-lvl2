@@ -995,7 +995,7 @@ hr {
   margin-left: -3.0625rem;
 }
 .page-pricing .flex-container > * {
-  max-width: 22.9375rem;
+  max-width: 23.375rem;
   margin-bottom: 3.125rem;
   margin-left: 3.0625rem;
 }
@@ -1017,8 +1017,7 @@ hr {
   background-size: cover;
 }
 .page-pricing > p {
-  margin-top: 2.4375rem;
-  padding-bottom: 0.9375rem;
+  margin-top: 2.5rem;
 }
 
 .page-news .flex-container {
@@ -1147,7 +1146,7 @@ hr {
   .page-discography .flex-container > *,
 .page-similar .flex-container > * {
     flex: 1 1 137px;
-    max-width: 8.625rem;
+    max-width: 8.5625rem;
   }
 }
 .page-discography .flex-container .last-item,

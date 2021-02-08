@@ -45,7 +45,7 @@ $subscriptions: (
     margin-left: px-to-rem(-49px);
 
     & > * {
-      max-width: px-to-rem(367px);
+      max-width: px-to-rem(374px);
       margin-bottom: px-to-rem(50px);
       margin-left: px-to-rem(49px);
     }
@@ -58,8 +58,7 @@ $subscriptions: (
   @include set-card-bg();
 
   & > p {
-    margin-top: px-to-rem(39px);
-    padding-bottom: px-to-rem(15px);
+    margin-top: px-to-rem(40px);
   }
 }
 
