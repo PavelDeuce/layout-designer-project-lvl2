@@ -49,13 +49,17 @@ $subscriptions: (
       margin-bottom: px-to-rem(50px);
       margin-left: px-to-rem(49px);
     }
+
+    @include set-media(sm) {
+      justify-content: center;
+    }
   }
 
   @include set-card-bg();
 
   & > p {
     margin-top: px-to-rem(39px);
-    margin-bottom: px-to-rem(15px);
+    padding-bottom: px-to-rem(15px);
   }
 }
 

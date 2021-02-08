@@ -710,7 +710,7 @@ hr {
 @media (max-width: 425px) {
   .card-title {
     top: 1.125rem;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 1rem;
     line-height: 1.5rem;
     text-transform: uppercase;
@@ -737,7 +737,7 @@ hr {
   text-transform: uppercase;
   max-width: 100%;
   margin-top: 1.5rem;
-  padding: 1.3125rem 0rem;
+  padding: 1.25rem 0rem;
   border: 0.0625rem solid #fff;
 }
 .card-small-text {
@@ -853,7 +853,7 @@ hr {
   color: #e0e0e0;
 }
 .singer-name {
-  margin-top: 1.0625rem;
+  margin-top: 0.6875rem;
   font-weight: bold;
   font-size: 1.125rem;
   line-height: 1.6875rem;
@@ -999,6 +999,11 @@ hr {
   margin-bottom: 3.125rem;
   margin-left: 3.0625rem;
 }
+@media (max-width: 425px) {
+  .page-pricing .flex-container {
+    justify-content: center;
+  }
+}
 .page-pricing .bg-free {
   background: url("../images/subscribe_1.png") no-repeat center;
   background-size: cover;
@@ -1013,7 +1018,7 @@ hr {
 }
 .page-pricing > p {
   margin-top: 2.4375rem;
-  margin-bottom: 0.9375rem;
+  padding-bottom: 0.9375rem;
 }
 
 .page-news .flex-container {
@@ -1148,6 +1153,18 @@ hr {
 .page-discography .flex-container .last-item,
 .page-similar .flex-container .last-item {
   margin-bottom: 0;
+}
+@media (max-width: 425px) {
+  .page-discography .flex-container .last-item,
+.page-similar .flex-container .last-item {
+    margin-bottom: 1.5625rem;
+  }
+}
+@media (max-width: 425px) {
+  .page-discography .flex-container .last-item-sm,
+.page-similar .flex-container .last-item-sm {
+    margin-bottom: 0rem;
+  }
 }
 .page-discography .flex-container .reserve,
 .page-similar .flex-container .reserve {

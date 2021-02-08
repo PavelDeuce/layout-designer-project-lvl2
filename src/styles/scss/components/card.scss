@@ -23,7 +23,7 @@
 
     @include set-media(sm) {
       top: px-to-rem(18px);
-      @include set-typography(16px, 24px, bold, uppercase);
+      @include set-typography(16px, 24px, normal, uppercase);
     }
   }
 
@@ -42,7 +42,7 @@
     @include set-typography(16px, 24px, normal, uppercase);
     max-width: 100%;
     margin-top: px-to-rem(24px);
-    padding: px-to-rem(21px 0px);
+    padding: px-to-rem(20px 0px);
 
     border: px-to-rem(1px) solid $white;
   }

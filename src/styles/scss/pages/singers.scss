@@ -71,6 +71,16 @@
 
     .last-item {
       margin-bottom: 0;
+
+      @include set-media(sm) {
+        margin-bottom: px-to-rem(25px);
+      }
+    }
+
+    .last-item-sm {
+      @include set-media(sm) {
+        margin-bottom: px-to-rem(0px);
+      }
     }
 
     .reserve {
