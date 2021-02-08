@@ -45,9 +45,13 @@ $subscriptions: (
     margin-left: px-to-rem(-49px);
 
     & > * {
-      max-width: px-to-rem(374px);
+      max-width: px-to-rem(367px);
       margin-bottom: px-to-rem(50px);
       margin-left: px-to-rem(49px);
+
+      @include set-media(sm) {
+        max-width: px-to-rem(374px);
+      }
     }
 
     @include set-media(sm) {

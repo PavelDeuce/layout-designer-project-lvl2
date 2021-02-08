@@ -41,7 +41,7 @@
   &-btn {
     @include set-typography(16px, 24px, normal, uppercase);
     max-width: 100%;
-    margin-top: px-to-rem(24px);
+    margin-top: px-to-rem(26px);
     padding: px-to-rem(20px 0px);
 
     border: px-to-rem(1px) solid $white;

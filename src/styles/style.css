@@ -736,7 +736,7 @@ hr {
   line-height: 1.5rem;
   text-transform: uppercase;
   max-width: 100%;
-  margin-top: 1.5rem;
+  margin-top: 1.625rem;
   padding: 1.25rem 0rem;
   border: 0.0625rem solid #fff;
 }
@@ -995,9 +995,14 @@ hr {
   margin-left: -3.0625rem;
 }
 .page-pricing .flex-container > * {
-  max-width: 23.375rem;
+  max-width: 22.9375rem;
   margin-bottom: 3.125rem;
   margin-left: 3.0625rem;
+}
+@media (max-width: 425px) {
+  .page-pricing .flex-container > * {
+    max-width: 23.375rem;
+  }
 }
 @media (max-width: 425px) {
   .page-pricing .flex-container {
