@@ -51,13 +51,17 @@
 }
 
 .pt-100 {
-  padding-top: px-to-rem(100px);
+  padding-top: 100px;
 }
 
 .pb-48 {
-  padding-bottom: px-to-rem(48px);
+  padding-bottom: 48px;
 }
 
 .pb-50 {
-  padding-bottom: px-to-rem(50px);
+  padding-bottom: 50px;
+}
+
+.mr-50 {
+  margin-right: 50px;
 }

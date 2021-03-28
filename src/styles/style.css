@@ -462,12 +462,6 @@ html {
   text-transform: inherit;
 }
 
-main {
-  padding-bottom: 6.25rem;
-  color: #fff;
-  background: #08020d;
-}
-
 body,
 h1,
 h2,
@@ -545,10 +539,16 @@ hr {
   border-bottom: 1px solid;
 }
 
+.main-content {
+  padding-bottom: 6.25rem;
+  color: #fff;
+  background: #08020d;
+}
+
 .container {
   max-width: 77.5rem;
   margin: 0 auto;
-  padding: 0rem 1.25rem;
+  padding: 0 1.25rem;
 }
 
 .d-flex {
@@ -604,15 +604,19 @@ hr {
 }
 
 .pt-100 {
-  padding-top: 6.25rem;
+  padding-top: 100px;
 }
 
 .pb-48 {
-  padding-bottom: 3rem;
+  padding-bottom: 48px;
 }
 
 .pb-50 {
-  padding-bottom: 3.125rem;
+  padding-bottom: 50px;
+}
+
+.mr-50 {
+  margin-right: 50px;
 }
 
 .btn {
@@ -656,14 +660,11 @@ hr {
   max-width: 35.625rem;
   margin: 0 auto 0;
 }
-.form > * {
-  margin: 1.875rem 0.9375rem 0rem;
-}
 .form-input {
   flex: 1 1 250px;
   min-height: 3.125rem;
-  margin-top: 0.9375rem;
-  padding: 0rem 0.9375rem;
+  margin: 1rem 0.9375rem 0;
+  padding: 0 0.9375rem;
   color: #fff;
   background: transparent;
   border: 0.125rem solid #fff;
@@ -678,6 +679,7 @@ hr {
   flex: 1 1 570px;
   max-width: 35.625rem;
   min-height: 3.5625rem;
+  margin: 1.5rem 0.9375rem 0;
   font-weight: normal;
   font-size: 0.83125rem;
   line-height: 0.9375rem;
@@ -685,13 +687,8 @@ hr {
 }
 
 .card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
   min-height: 38.6875rem;
-  padding: 0rem 1.5rem;
+  padding: 1.3125rem 1.5rem 4.125rem 1.5rem;
   border-radius: 1rem;
 }
 @media (max-width: 425px) {
@@ -700,8 +697,6 @@ hr {
   }
 }
 .card-title {
-  position: absolute;
-  top: 1.3125rem;
   font-weight: normal;
   font-size: 1.5rem;
   line-height: 2.8125rem;
@@ -709,7 +704,6 @@ hr {
 }
 @media (max-width: 425px) {
   .card-title {
-    top: 1.125rem;
     font-weight: normal;
     font-size: 1rem;
     line-height: 1.5rem;
@@ -717,6 +711,7 @@ hr {
   }
 }
 .card-price {
+  margin-top: 11.25rem;
   font-weight: normal;
   font-size: 4rem;
   line-height: 6rem;
@@ -737,7 +732,7 @@ hr {
   text-transform: uppercase;
   max-width: 100%;
   margin-top: 1.625rem;
-  padding: 1.25rem 0rem;
+  padding: 1.25rem 0;
   border: 0.0625rem solid #fff;
 }
 .card-small-text {
@@ -745,7 +740,7 @@ hr {
   font-size: 0.8rem;
   line-height: 1.2rem;
   text-transform: inherit;
-  margin: 4rem 0rem 4.125rem;
+  margin: 4rem 0 4.125rem;
 }
 
 .feed {
@@ -789,7 +784,6 @@ hr {
 .feed-btn {
   max-width: 8.4375rem;
   margin-top: 3rem;
-  padding: 1rem 1.875rem;
   text-transform: uppercase;
   border: 0.0625rem solid #cacaca;
 }
@@ -882,13 +876,13 @@ hr {
   margin-right: 1rem;
 }
 .header .logo-title {
-  padding: 0.3125rem 0rem;
+  padding: 0.3125rem 0;
 }
 .header .search-input {
   min-width: 15.5rem;
   height: 1.5625rem;
   margin-left: auto;
-  padding: 0rem 0.875rem;
+  padding: 0 0.875rem;
   color: #fff;
   background: #3c3b3d;
   border: none;
@@ -904,7 +898,7 @@ hr {
   }
   .header .nav-menu ul li {
     margin-bottom: 0.3125rem;
-    margin-left: 0rem;
+    margin-left: 0;
   }
 }
 @media (max-width: 768px) {
@@ -920,7 +914,7 @@ hr {
 .footer .column-links .flex-container {
   margin-bottom: -1.875rem;
   margin-left: -2rem;
-  padding: 3.8125rem 0rem 4.625rem;
+  padding: 3.8125rem 0 4.625rem;
 }
 .footer .column-links .flex-container > * {
   flex: 1 1 246px;
@@ -940,7 +934,7 @@ hr {
   margin-right: 1.5rem;
 }
 .footer .row-links ul {
-  padding: 2.5rem 0rem 3rem;
+  padding: 2.5rem 0 3rem;
 }
 @media (max-width: 768px) {
   .footer .row-links ul {
@@ -957,13 +951,13 @@ hr {
 }
 
 .home-page-description {
-  padding: 12.5rem 0rem;
+  padding: 12.5rem 0;
   background: url("../images/banner.png") no-repeat center;
   background-size: cover;
 }
 @media (max-width: 425px) {
   .home-page-description {
-    padding: 15.625rem 0rem 12.4375rem 0rem;
+    padding: 15.625rem 0 12.4375rem 0;
   }
 }
 .home-page-description .subtitle {
@@ -990,14 +984,11 @@ hr {
 }
 
 .page-pricing .flex-container {
-  flex: 1 1 367px;
-  margin-bottom: -3.125rem;
-  margin-left: -3.0625rem;
+  column-gap: 1.875rem;
+  row-gap: 3.125rem;
 }
 .page-pricing .flex-container > * {
   max-width: 22.9375rem;
-  margin-bottom: 3.125rem;
-  margin-left: 3.0625rem;
 }
 @media (max-width: 425px) {
   .page-pricing .flex-container > * {
@@ -1027,11 +1018,9 @@ hr {
 
 .page-news .flex-container {
   flex: 1 1 575px;
-  margin-left: -50px;
 }
 .page-news .flex-container > * {
   max-width: 575px;
-  margin-left: 50px;
 }
 .page-news > article:not(:last-child) {
   margin-bottom: 4.0625rem;
@@ -1086,13 +1075,13 @@ hr {
 }
 
 .singers-page-description {
-  padding: 15.625rem 0rem 13.9375rem 0rem;
+  padding: 15.625rem 0 13.9375rem 0;
   background: url("../images/Morten Harket.png") no-repeat center;
   background-size: cover;
 }
 @media (max-width: 425px) {
   .singers-page-description {
-    padding: 14.0625rem 0rem 14rem 0rem;
+    padding: 14.0625rem 0 14rem 0;
   }
 }
 .singers-page-description h1 {
@@ -1167,7 +1156,7 @@ hr {
 @media (max-width: 425px) {
   .page-discography .flex-container .last-item-sm,
 .page-similar .flex-container .last-item-sm {
-    margin-bottom: 0rem;
+    margin-bottom: 0;
   }
 }
 .page-discography .flex-container .reserve,

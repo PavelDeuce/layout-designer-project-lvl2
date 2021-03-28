@@ -21,7 +21,7 @@ $header-placeholder: #757575;
     }
 
     &-title {
-      padding: px-to-rem(5px 0px);
+      padding: px-to-rem(5px) 0;
     }
   }
 
@@ -30,7 +30,7 @@ $header-placeholder: #757575;
     height: px-to-rem(25px);
 
     margin-left: auto;
-    padding: px-to-rem(0px 14px);
+    padding: 0 px-to-rem(14px);
 
     color: $white;
 
@@ -50,7 +50,7 @@ $header-placeholder: #757575;
 
       li {
         margin-bottom: px-to-rem(5px);
-        margin-left: px-to-rem(0px);
+        margin-left: 0;
       }
     }
   }

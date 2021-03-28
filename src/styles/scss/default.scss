@@ -7,14 +7,6 @@ html {
   @include set-typography($rem-base, 24px);
 }
 
-main {
-  padding-bottom: px-to-rem(100px);
-
-  color: $white;
-
-  background: $black;
-}
-
 body,
 h1,
 h2,
@@ -73,9 +65,17 @@ hr {
   border-bottom: 1px solid;
 }
 
+.main-content {
+  padding-bottom: px-to-rem(100px);
+
+  color: $white;
+
+  background: $black;
+}
+
 .container {
   max-width: px-to-rem(1240px);
   margin: 0 auto;
 
-  padding: px-to-rem(0px 20px);
+  padding: 0 px-to-rem(20px);
 }

@@ -1,9 +1,9 @@
 .singers-page-description {
-  padding: px-to-rem(250px 0px 223px 0px);
+  padding: px-to-rem(250px) 0 px-to-rem(223px) 0;
   @include set-bg-image(Morten Harket, png);
 
   @include set-media(sm) {
-    padding: px-to-rem(225px 0px 224px 0px);
+    padding: px-to-rem(225px) 0 px-to-rem(224px) 0;
   }
 
   h1 {
@@ -79,7 +79,7 @@
 
     .last-item-sm {
       @include set-media(sm) {
-        margin-bottom: px-to-rem(0px);
+        margin-bottom: 0;
       }
     }
 

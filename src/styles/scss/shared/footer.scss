@@ -5,7 +5,7 @@
     & .flex-container {
       margin-bottom: px-to-rem(-30px);
       margin-left: px-to-rem(-32px);
-      padding: px-to-rem(61px 0px 74px);
+      padding: px-to-rem(61px) 0 px-to-rem(74px);
 
       & > * {
         flex: 1 1 246px;
@@ -27,7 +27,7 @@
   }
 
   & .row-links ul {
-    padding: px-to-rem(40px 0px 48px);
+    padding: px-to-rem(40px) 0 px-to-rem(48px);
 
     @include set-media(md) {
       flex-direction: column;

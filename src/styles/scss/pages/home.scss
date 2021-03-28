@@ -13,12 +13,12 @@ $subscriptions: (
 }
 
 .home-page-description {
-  padding: px-to-rem(200px 0px);
+  padding: px-to-rem(200px) 0;
 
   @include set-bg-image(banner, png);
 
   @include set-media(sm) {
-    padding: px-to-rem(250px 0px 199px 0px);
+    padding: px-to-rem(250px) 0 px-to-rem(199px) 0;
   }
 
   .subtitle {
@@ -40,14 +40,16 @@ $subscriptions: (
 
 .page-pricing {
   .flex-container {
-    flex: 1 1 367px;
-    margin-bottom: px-to-rem(-50px);
-    margin-left: px-to-rem(-49px);
+    //margin-bottom: px-to-rem(-50px);
+    //margin-left: px-to-rem(-49px); adaptive on flex
+
+    column-gap: px-to-rem(30px);
+    row-gap: px-to-rem(50px); // not works on safari
 
     & > * {
       max-width: px-to-rem(367px);
-      margin-bottom: px-to-rem(50px);
-      margin-left: px-to-rem(49px);
+      //margin-bottom: px-to-rem(50px);
+      //margin-left: px-to-rem(49px);
 
       @include set-media(sm) {
         max-width: px-to-rem(374px);
@@ -69,11 +71,9 @@ $subscriptions: (
 .page-news {
   .flex-container {
     flex: 1 1 575px;
-    margin-left: -50px;
 
     & > * {
       max-width: 575px;
-      margin-left: 50px;
     }
   }
 
